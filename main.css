@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+h1 a{
+    color: #ff0000;
+    text-decoration: none;
+}
+
 hr{
     color: red;
 }
@@ -76,6 +81,8 @@ section p {
 
 .logo-lele {
     margin-right: 32px;
+    width: 500px;
+    
 }
 
 .streaming-links li {
@@ -89,7 +96,9 @@ section p {
 
 .contact-methods {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 500px; /* Define a altura para centralizar verticalmente */
 }
 
 form input,
@@ -119,8 +128,13 @@ textarea:focus {
     height: 50px;
 }
 
+
 .streaming-links li a {
     text-decoration: none;
+}
+
+.streaming-links{
+    padding-right: 10px;
 }
 
 footer{
