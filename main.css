@@ -44,6 +44,12 @@ header nav li a {
     text-decoration: none;
 }
 
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s; /* Adicionando uma transição para suavizar a mudança de cor */
+}
+
 .container {
     max-width: 1280px;
     width: 100%;
